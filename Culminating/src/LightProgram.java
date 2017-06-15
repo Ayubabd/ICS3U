@@ -11,7 +11,7 @@ public class LightProgram {
 
 	static LightSensor ls = new LightSensor(SensorPort.S1); 
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 
 		System.out.println("Hello");
 		Button.waitForAnyPress();
