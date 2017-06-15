@@ -67,11 +67,11 @@ public class lifeprogram {
 	}
 
 	/**
-	 * Checks if the cell should be alive 
+	 * Checks if the cell should be alive based on neighbours
 	 * @param arr - the array which will be checked
 	 * @param row - row of the array
 	 * @param column - column of the array
-	 * @return - true if appropriate amount is found, false if not
+	 * @return - true if appropriate amount of neighbours, false if not
 	 */
 	private static boolean isCellAlive(int[][] arr, int row, int column) {
 
@@ -82,7 +82,7 @@ public class lifeprogram {
 
 		// check one to the right of column
 		if (arr[row].length > column + 1) {
-		
+			if
 	}
 
 }
