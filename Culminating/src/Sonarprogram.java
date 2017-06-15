@@ -1,6 +1,7 @@
 
 
-import lejos.nxt.Button;
+import java.awt.Button;
+
 import lejos.nxt.Motor;
 import lejos.nxt.SensorPort;
 import lejos.nxt.TouchSensor;
